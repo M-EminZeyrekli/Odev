@@ -7,14 +7,14 @@ function App() {
     const data = await axios
       .get("http://localhost:8080/")
       .then((resp) => resp.data)
-      .then((resp) => <p>resp{resp}</p>);
+      .then((resp) => console.log(resp))
 
     return data;
   };
 
   return (
     <div className="App">
-      <button onClick={<p>{hello}</p>}>Hello</button>
+      <button onClick={hello}>Hello World!</button>
     </div>
   );
 }
