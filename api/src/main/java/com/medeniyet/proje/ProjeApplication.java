@@ -1,4 +1,4 @@
-package com.medeniyet.api;
+package com.medeniyet.proje;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

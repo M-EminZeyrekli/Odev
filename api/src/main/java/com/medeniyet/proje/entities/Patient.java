@@ -1,4 +1,4 @@
-package com.medeniyet.api.entities;
+package com.medeniyet.proje.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -37,7 +37,7 @@ public class Patient {
     @Column(name = "height")
     private double height;
 
-    
+    @Column(name = "phone_number")
+    private int phoneNumber;
 
-    
 }
